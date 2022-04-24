@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New',
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(240, 2%, 89%);
+    min-height: 100vh;
+}
+section{
+    width: 260px;
+    min-height: 470px;
+    border-radius: 5px;
+    background-color: white;
+}
+.code>img{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 7px;
+    height: 250px;
+    width: 250px;
+}
+.code P{
+    text-align: center;
+}
+.code h2{
+    font-weight: 1000;
+    text-align: center;
+}
+.attribution{
+    text-align: center;
+}

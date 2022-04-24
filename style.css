@@ -32,3 +32,6 @@ section{
 .attribution{
     text-align: center;
 }
+.attribution a{
+    text-decoration: none;
+}

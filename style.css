@@ -14,21 +14,24 @@ body{
 }
 section{
     width: 260px;
-    min-height: 470px;
+    min-height: 420px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
 }
 .code>img{
-    border-radius: 10px;
+    border-radius: 13px;
     margin-left: 5px;
     margin-top: 7px;
     height: 250px;
     width: 250px;
+    padding: 5px;
 }
 .code P{
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
     text-align: center;
+    color:  hsl(212, 45%, 89%);
 }
-.code h2{
+.code h3{
     text-align: center;
 }

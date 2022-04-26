@@ -1,19 +1,22 @@
 *{
     box-sizing: border-box;
-    font-family: 'Courier New',
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(240, 2%, 89%);
+    background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
 }
 section{
     width: 260px;
     min-height: 470px;
-    border-radius: 5px;
-    background-color: white;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
 }
 .code>img{
     border-radius: 10px;
@@ -23,15 +26,9 @@ section{
     width: 250px;
 }
 .code P{
+    font-size: 15px;
     text-align: center;
 }
 .code h2{
-    font-weight: 1000;
     text-align: center;
-}
-.attribution{
-    text-align: center;
-}
-.attribution a{
-    text-decoration: none;
 }
